@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiwoo's Home Page</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" style="text-decoration: none;">Jiwoo's E-Portfolio</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Extracurriculars</a></li>
+            <li><a href="Jiwoo Jung Resume.pdf" download>Resume</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="centre">
+            <h1 class>JIWOO JUNG</h1>
+            <br>
+            <h2 class>Student | Software Developer | Athlete</h2>
+        </div>
+    </section>
+    <section class="aboutme">
+        <h1 style="color: black;">About Me</h1>
+        <br>
+        <div style="display: flex; align-items: center; justify-content: space-evenly;">
+            <img src="images/basketball.jpg" alt="basketball" style="width: 150px; padding: 0 10px;">
+            <img src="images/uoftlogo.jpg" alt="UoftLogo" style="width: 250px; padding: 0 10px;">
+            <img src="images/guitar.jpg" alt="basketball" style="width: 200px; padding: 0 10px;">
+        </div>
+        <br>
+        <div class="row">
+            <div class="column" style="text-align: center;">
+                <p style="text-align: center;">I love playing basketball. I played Varsity throughout high
+                    school, and still
+                    play recreationally.</p>
+            </div>
+            <div class="column">
+
+                <p style="text-align: center;">I'm in the Computer
+                    Science Specialist program at University of Toronto Saint George campus,
+                    Class of 2024.
+                </p>
+            </div>
+            <div class="column">
+
+                <p style="text-align: center;">Playing the guitar is a recent hobby I picked up. I would love to perform
+                    on
+                    stage or go busking
+                    in the future.</p>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <h1>Projects</h1>
+    </section>
+    <section class="extracurriculars">
+        <h1>Extracurriculars</h1>
+    </section>
+    <section class="contacts" style="color: white;">
+        <div style="display: flex; align-items: center; justify-content: center">
+            <a href="https://www.linkedin.com/in/jiwoo-jung-7b51741b5/"><img src="images/linkedin.png"
+                    style="width: 70px;"></a>
+            <a href="https://github.com/JiwooJiyof"><img src="images/github.png" style="width: 80px;"></a>
+        </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>
