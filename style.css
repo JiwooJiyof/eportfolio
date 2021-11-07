@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 body {
@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 1s;
-    padding: 30px 100px;
+    padding: 20px 75px;
     z-index: 1000000;
     background: rgb(46, 39, 54);
 }
@@ -88,8 +88,9 @@ header .sticky {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: white;
     align-items: center;
+    background: url(images/sky.jpg);
+    background-size: cover;
 }
 
 .aboutme p {
@@ -100,7 +101,7 @@ header .sticky {
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 23.33%;
   }
   
   .row:after {
@@ -110,14 +111,14 @@ header .sticky {
   }
 
 .banner h1 {
-    letter-spacing: 4px;
-    font-size: 80px;
+    letter-spacing: 3px;
+    font-size: 70px;
     text-align: center;
 }
 
 h1 {
     letter-spacing: 3px;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -136,23 +137,6 @@ p {
     width: 300px;
     display: block;
     margin: auto;
-}
-
-.projects {
-    background: black;
-}
-
-.extracurriculars {
-    background: white;
-    text-decoration: black;
-}
-
-.extracurriculars h1 {
-    color: black;
-}
-
-.resume {
-    background: black;
 }
 
 .contacts {
