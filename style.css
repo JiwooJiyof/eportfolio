@@ -33,7 +33,7 @@ header {
     padding: 2vh 1vh;
     z-index: 1000000;
     background: rgb(46, 39, 54);
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 2px;
 }
 
@@ -52,10 +52,10 @@ header ul li {
 header ul li a {
     position: relative;
     text-decoration: none;
-    font-size: 1vh;
+    font-size: 12px;
     padding: 0.5vh;
     transition: 1s;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 header ul li a:hover {
@@ -112,7 +112,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1vh;
+    font-size: 12px;
     font-weight: normal;
 }
 
