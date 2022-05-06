@@ -2,18 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFF;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-    background: white;
+    background: black;
     min-height: 80vh;
 }
 
 .centre {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -30,89 +31,18 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 1s;
-    padding: 2vh 1vh;
+    padding: 1vh;
     z-index: 1000000;
-    background: rgb(46, 39, 54);
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-header ul {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header ul li {
-    position: relative;
-    list-style: none;
-}
-
-header ul li a {
-    position: relative;
-    text-decoration: none;
-    font-size: 12px;
-    padding: 0.5vh;
-    transition: 1s;
-    letter-spacing: 1px;
-}
-
-header ul li a:hover {
-    text-decoration: underline;
-}
-
-header .logo {
-    position: relative;
-    font-weight: normal;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 1s;
-}
-
-header .sticky {
-    padding: 5px 100px;
-    background: #000;
-}
-
-.banner {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url(images/background2.jpg);
-    background-size: cover;
-}
-
-.aboutme {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    background: url(images/background.jpg);
-    background-size: cover;
-}
-
-.aboutme p {
-    position: relative;
-    font-size: 2vh;
-    padding: 0vh 1.5vh;
-}
-
-.banner h1 {
-    letter-spacing: 1vh;
-    font-size: 6vh;
-    text-align: center;
 }
 
 h1 {
     letter-spacing: 1vh;
-    font-size: 4vh;
+    font-size: 2.5vh;
     text-align: center;
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 2vh;
     font-weight: normal;
 }
 
@@ -120,21 +50,13 @@ p {
     color: black;
 }
 
-#Jiwoo {
+#profile {
     border-radius: 50%;
-    height: 18vh;
-    width: 18vh;
+    height: 15vh;
+    width: 15vh;
     margin: auto;
 }
 
-.contacts {
-    background: pink;
-}
-
-#rescale {
-    width: 14vh;
-    padding: 2vh 1vh;
-}
 
 #padding {
     text-align: center;
@@ -151,15 +73,16 @@ p {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        color: #FFF;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        background-color: #000;
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
     }
-    
+
     body {
-        background: white;
+        background: black;
         min-height: 80vh;
     }
-    
+
     .centre {
         position: absolute;
         top: 50%;
@@ -169,7 +92,7 @@ p {
         transform: translateX(-50%) translateY(-50%);
         text-align: center;
     }
-    
+
     header {
         position: fixed;
         top: 0;
@@ -181,36 +104,13 @@ p {
         transition: 1s;
         padding: 3vh 7vh;
         z-index: 1000000;
-        background: rgb(46, 39, 54);
-        font-size: 14px;
-        letter-spacing: 3px;
     }
-    
-    header ul {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+
+    a:hover {
+        color: gray;
     }
-    
-    header ul li {
-        position: relative;
-        list-style: none;
-    }
-    
-    header ul li a {
-        position: relative;
-        margin: 0 2vh;
-        text-decoration: none;
-        letter-spacing: 3px;
-        font-size: 14px;
-        transition: 1s;
-    }
-    
-    header ul li a:hover {
-        text-decoration: underline;
-    }
-    
+
     header .logo {
         position: relative;
         font-weight: normal;
@@ -220,70 +120,29 @@ p {
         letter-spacing: 0.5vh;
         transition: 1s;
     }
-    
-    header .sticky {
-        padding: 5px 100px;
-        background: #000;
-    }
-    
-    .banner {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        background: url(images/background2.jpg);
-        background-size: cover;
-    }
-    
-    .aboutme {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        align-items: center;
-        background: url(images/background.jpg);
-        background-size: cover;
-    }
-    
-    .aboutme p {
-        position: relative;
-        font-size: 20px;
-        padding: 5px 10px;
-    }
-    
-    .banner h1 {
-        letter-spacing: 2px;
-        font-size: 75px;
-        text-align: center;
-    }
-    
+
     h1 {
         letter-spacing: 2px;
-        font-size: 50px;
-        text-align: center;
+        font-size: 40px;
+        padding: 10px;
     }
-    
+
     h2 {
-        font-size: 30px;
+        font-size: 25px;
+        padding: 7px;
     }
-    
+
     p {
         color: black;
     }
-    
-    #Jiwoo {
+
+    #profile {
         border-radius: 50%;
         height: 200px;
         width: 200px;
         margin: auto;
     }
-    
-    .contacts {
-        background: pink;
-    }
 
-    #rescale {
-        width: 250px;
-        padding: 0 5px;
-    }
 
     #padding {
         text-align: center;

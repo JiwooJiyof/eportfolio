@@ -5,68 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jiwoo's Home Page</title>
+    <title>home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <a href="#" style="text-decoration: none;">E-Portfolio</a>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="Jiwoo Jung Resume.pdf" download>Resume</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-        </ul>
+        <a href="#" style="text-decoration: none; font-size: large;">Home</a>
     </header>
-    <section class="banner">
-        <div class="centre">
-            <h1 class>JIWOO JUNG</h1>
-            <br>
-            <h2 class>Student | Software Developer | Innovator</h2>
-        </div>
-    </section>
-    <br>
-    <section class="aboutme">
+    <div class="centre">
+        <img src="images/wallpaper.jpg" id="profile" alt="me">
         <br>
-        <h1 style="color: black;">About Me</h1>
         <br>
-        <div style="display: flex; align-items: center; justify-content: center;">
-            <div>
-                <img src="images/jiwoo.jpg" id="Jiwoo" ; alt="me">
-            </div>
-        </div>
+        <h1 class>Jiwoo Jung</h1>
         <br>
-        <div style="display: flex; align-items: center; justify-content: space-evenly;">
-            <img src="images/basketball.png" id="rescale" alt="basketball">
-            <img src="images/uoftlogo.png" id="rescale" alt="UoftLogo">
-            <img src="images/chess.png" id="rescale" alt="chess">
-        </div>
-        <div style="display: flex; align-items: center; justify-content: space-evenly;">
-            <p id="padding">I love playing basketball. I played Varsity throughout high
-                school, and still
-                play recreationally.</p>
-            <p id="padding">I'm in the Computer
-                Science Specialist program at University of Toronto Saint George campus,
-                Class of 2024.
-            </p>
-            <p id="padding">I enjoy playing chess from time to time. I want to become a grandmaster
-                one day.</p>
-        </div>
-    </section>
-    <section class="contacts">
-        <div style="display: flex; align-items: center; justify-content: center;">
-            <a href="https://www.linkedin.com/in/jiwoo-jung-7b51741b5/"><img src="images/linkedin.png"
-                    id="contact_logo"></a>
-            <a href="https://github.com/JiwooJiyof"><img src="images/github.png" id="contact_logo"></a>
-        </div>
-    </section>
-    <script type="text/javascript">
-        window.addEventListener("scroll", function () {
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        })
-    </script>
+        <a href="aboutme.html" style="text-decoration: none;">
+            <h2>About Me</h2>
+
+            <a href="projects.html" style="text-decoration: none;">
+                <h2>Projects</h2>
+            </a>
+            <a href="contacts.html" style="text-decoration: none;">
+                <h2>Contacts</h2>
+            </a>
+            <a href="Jiwoo Jung Resume.pdf" download style="text-decoration: none;">
+                <h2>Resume</h2>
+            </a>
+    </div>
+
 </body>
 
 </html>
