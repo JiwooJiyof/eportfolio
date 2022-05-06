@@ -31,7 +31,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 1s;
-    padding: 1vh;
+    padding: 2vh;
     z-index: 1000000;
 }
 
@@ -102,7 +102,7 @@ p {
         justify-content: space-between;
         align-items: center;
         transition: 1s;
-        padding: 3vh 7vh;
+        padding: 5vh;
         z-index: 1000000;
     }
 
