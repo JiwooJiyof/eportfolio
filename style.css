@@ -39,15 +39,23 @@ h1 {
     letter-spacing: 1vh;
     font-size: 2.5vh;
     text-align: center;
+    padding: 1vh;
 }
 
 h2 {
-    font-size: 2vh;
-    font-weight: normal;
+    font-size: 1.5vh;
+    padding: 1vh;
 }
 
-p {
-    color: black;
+.aboutme h1 {
+    font-size: 1.75vh;
+    padding: 0.5vh;
+}
+
+.aboutme h2 {
+    font-size: 1.5vh;
+    padding: 0.2vh;
+    color: gray;
 }
 
 #profile {
@@ -111,16 +119,6 @@ p {
         color: gray;
     }
 
-    header .logo {
-        position: relative;
-        font-weight: normal;
-        color: #fff;
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 0.5vh;
-        transition: 1s;
-    }
-
     h1 {
         letter-spacing: 2px;
         font-size: 40px;
@@ -130,6 +128,16 @@ p {
     h2 {
         font-size: 25px;
         padding: 7px;
+    }
+
+    .aboutme h1 {
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .aboutme h2 {
+        font-size: 25px;
+        padding: 2px;
     }
 
     p {
